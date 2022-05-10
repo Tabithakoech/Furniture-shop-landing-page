@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: Nunito;
+}
+.top-section{
+    background-color: #82A284;
+    padding: 30px 50px ;
+}
+.logo{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.logo h2{
+    color: white;
+}
+.logo ul{
+    display: flex;
+    align-items: center;
+}
+.logo li{
+    padding: 20px;
+}
+.logo li a {
+    color: white;
+}
+.logo li button{
+    padding: 10px 20px;
+    background-color:#0d1f0f;
+    border: none;
+    border-radius: 15px;
+    color: white;
+}
+.heading{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    /* padding: 20px; */
+}
+
+.description{
+    width: 50%;
+}
+.description p, button{
+    margin: 20px auto;
+}
+.description .btn1{
+    padding: 10px 20px;
+    background-color:#0d1f0f ;
+    border-radius: 15px;
+    border: none;
+    color: white;
+}
+.description .btn2{
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: 1px solid white;
+    background: transparent;
+    color: white;
+}
+.top-image{
+    width: 50%;
+}
+.bottom-sec{
+    position: relative;
+    display: flex;
+    padding: 30px 50px;
+    justify-content: space-between;
+}
+.bottom-sec .item1 {
+    text-align: start;
+}
+.sales {
+    padding: 10px;
+    text-align: center;
+    max-width: 250px;
+    height: 300px;
+}
+.sales img {
+    width: 100%;
+    height: auto;
+}
+.sales h4{
+    padding-top: 10px;
+}
+.sales:hover {
+    background-color: lightgray;
+}
+footer{
+    padding: 30px 50px ;
+    display: flex;
+}
+footer div{
+    padding: 0 10px;
+}
